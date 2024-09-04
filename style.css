@@ -1,0 +1,176 @@
+* {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFF5E4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5E4;
+    padding-right: 10px;
+}
+
+/* Navigation bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #C1D8C3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #C1D8C3;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    background-color: #C1D8C3;
+  }
+  
+  .navbar a:hover {
+    color: white;
+  }
+
+  .titleName {
+    background-color: #C1D8C3;
+  }
+  
+
+
+/* Header Image */
+
+.headerImage {
+    width: 100%;
+    height: 40vh;
+    position: relative; 
+    background-image: url('bakeryheader.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    align-items: flex-end; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+h1 {
+    background-color: transparent;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 500%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* First Container */
+.conOne {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+
+    /* First Container - Image Container */
+    .boxOne {
+        flex: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        position: relative; 
+        overflow: hidden; 
+        width: 50%;
+        padding: 2%;
+    }
+
+    /* First Container - Image */
+    .firstImage {
+        max-width: 100%; 
+        object-fit: contain; 
+        border-radius: 5%;
+    }
+
+    /* First Container - Text */
+    .boxTwo {
+        flex: 1; 
+        min-width: 300px; 
+        padding: 20px;  
+        align-items: center;
+        align-content: center; 
+        text-align: justify;
+    }
+
+/* Second Container */
+.conTwo {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+    /* Second Container - List */
+    .conTwo li {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    /* Second Container - Text */
+    .boxThree {
+        flex: 1; 
+        min-width: 300px; 
+        padding: 20px;
+    }
+
+    /* Second Container - Image Container */
+    .boxFour {
+        flex: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        position: relative; 
+        overflow: hidden; 
+        width: 50%;
+        padding: 2%;
+    }
+
+    /* Second Container - Image*/
+    .secondImage {
+        max-width: 100%; 
+        object-fit: contain; 
+        border-radius: 5%;
+    }
+
+/* Third Container */
+.conThree {
+    width: 100%;
+    display: block;
+}
+
+/* Fourth Container */
+.conFour h4 {
+    background-color: #C1D8C3 !important;
+    width: 100%;
+    display: block;
+    padding: 2%;
+    text-align: center;
+}
